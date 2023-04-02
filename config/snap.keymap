@@ -18,7 +18,7 @@
 		mute_mic_teams: mute_mic_teams {
 			label = "MACRO_mute_mic_teams";
 			compatible = "zmk,behaviour-macro";
-			#binding-cells = <0>
+			#binding-cells = <0>;
 			bindings
 				= <&macro_press &kp LSHIFT &kp LGUI>
 				, <&macros_tap &kp M>
