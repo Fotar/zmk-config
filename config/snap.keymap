@@ -21,7 +21,7 @@
 			#binding-cells = <0>;
 			bindings
 				= <&macro_press &kp LSHIFT &kp LGUI>
-				, <&macros_tap &kp M>
+				, <&macro_tap &kp M>
 				, <&macro_release &kp LSHIFT &kp LGUI>
 				;
 		};
